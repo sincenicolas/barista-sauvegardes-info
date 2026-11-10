@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Présentation de l'application Le Barista - Sauvegardes, utilisée pour le stockage de sauvegardes chiffrées sur Google Drive.">
+  <title>Le Barista - Sauvegardes</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #2C3E50;
+      background: #FAF8F5;
+    }
+    body {
+      margin: 0;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 760px;
+      margin: 70px auto;
+      padding: 0 24px;
+    }
+    .eyebrow {
+      color: #7F5D41;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: .8rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+    }
+    h2 { margin-top: 36px; }
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #E5E0D8;
+      border-radius: 12px;
+      padding: 28px;
+      margin-top: 28px;
+    }
+    a { color: #7F5D41; }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #E5E0D8;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Le Barista du Digital</p>
+    <h1>Le Barista - Sauvegardes</h1>
+
+    <p>
+      Le Barista - Sauvegardes est une application
+      technique privée destinée à faciliter le
+      stockage et la récupération de sauvegardes
+      chiffrées sur Google Drive.
+    </p>
+
+    <section class="card">
+      <h2>À quoi sert cette application ?</h2>
+      <p>
+        Elle permet d'autoriser une connexion à
+        Google Drive à l'aide du protocole OAuth 2.0
+        et de l'outil Rclone.
+      </p>
+      <p>
+        Son utilisation prévue est le transfert
+        et la récupération d'archives préalablement
+        chiffrées, dans le cadre de la protection
+        des données de l'activité.
+      </p>
+    </section>
+
+    <section>
+      <h2>Accès à Google Drive</h2>
+      <p>
+        L'application utilise l'autorisation
+        Google Drive <strong>drive.file</strong>,
+        afin de limiter son accès aux fichiers
+        autorisés à cette application.
+      </p>
+      <p>
+        L'accès nécessite une autorisation explicite
+        du titulaire du compte Google. Cette
+        autorisation peut être retirée depuis les
+        paramètres de sécurité du compte Google.
+      </p>
+    </section>
+
+    <section>
+      <h2>Confidentialité</h2>
+      <p>
+        Pour connaître l'utilisation prévue des
+        données et les modalités d'accès, consultez
+        notre <a href="privacy.html">politique de confidentialité</a>.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Application technique de
+        <a href="https://lebaristadudigital.fr/">
+          Le Barista du Digital
+        </a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
